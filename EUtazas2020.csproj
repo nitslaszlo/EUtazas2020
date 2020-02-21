@@ -52,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="EUtazás2020_feladat.docx" />
+    <None Include="EUtazás2020_feladat.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="utasadat.txt">
