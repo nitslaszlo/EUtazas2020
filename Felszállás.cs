@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace EUtazas2020
 {
-    class Felszállás
+    abstract class Felszállás
     {
         public int Megálló { get; private set; }
         public DateTime Idő { get; private set; }

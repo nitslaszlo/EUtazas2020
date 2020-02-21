@@ -1,7 +1,6 @@
 ﻿namespace EUtazas2020
 {
-    class FelszállásJegy: Felszállás
-
+    class FelszállásJegy : Felszállás
     {
         public int UtazásokSzám { get; private set; }
         public override bool ÉrvényesFelszállás => UtazásokSzám > 0;
@@ -10,6 +9,5 @@
         {
             UtazásokSzám = int.Parse(sor.Split()[4]);
         }
-
     }
 }
